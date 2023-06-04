@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cabinet"
+            android:title="@string/menu_cabinet"/>
+        <item
+            android:id="@+id/nav_ata"
+            android:icon="@drawable/grandfather_icon"
+            android:title="@string/menu_ata" />
+        <item
+            android:id="@+id/nav_apa"
+            android:icon="@drawable/grandmother_icon"
+            android:title="@string/menu_apa" />
+        <item
+            android:id="@+id/nav_ake"
+            android:icon="@drawable/father_icon"
+            android:title="@string/menu_ake" />
+        <item
+            android:id="@+id/nav_ana"
+            android:icon="@drawable/mother_icon2"
+            android:title="@string/menu_ana" />
+        <item
+            android:id="@+id/nav_aga"
+            android:icon="@drawable/brother_icon"
+            android:title="@string/menu_aga" />
+        <item
+            android:id="@+id/nav_apke"
+            android:icon="@drawable/sister_icon"
+            android:title="@string/menu_apke" />
+        <item
+            android:id="@+id/nav_karyndas"
+            android:icon="@drawable/little_sister_icon"
+            android:title="@string/menu_karyndas" />
+        <item
+            android:id="@+id/nav_ini"
+            android:icon="@drawable/little_brother_icon"
+            android:title="@string/menu_ini" />
+    </group>
+</menu>

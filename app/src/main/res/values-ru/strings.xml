@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Последний Android проект</string>
+    <string name="enter_email">Введите email адресс</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="login">войти</string>
+    <string name="new_user_register">Новый пользователь? Регистрация</string>
+    <string name="write_your_email">Напишите email адресс</string>
+    <string name="write_password">Напишите пароль</string>
+    <string name="welcome">Добро пожаловать, </string>
+    <string name="email_or_password_is_wrong">Email или пароль неверный</string>
+
+    <string name="menu_cabinet">Мой кабинет</string>
+    <string name="menu_ata">Дедушка</string>
+    <string name="menu_apa">Бабушка</string>
+    <string name="menu_ake">Папа</string>
+    <string name="menu_ana">Мама</string>
+    <string name="menu_aga">Брат</string>
+    <string name="menu_apke">Сестра</string>
+    <string name="menu_karyndas">Младшая сестра</string>
+    <string name="menu_ini">Младший брат</string>
+
+    <string name="phoneNumber">Мой номер</string>
+    <string name="phoneNumberGrandFather">Дедушка</string>
+    <string name="phoneNumberGrandMother">Бабушка</string>
+    <string name="phoneNumberFather">Папа</string>
+    <string name="phoneNumberMother">Мама</string>
+    <string name="phoneNumberBrother">Брат</string>
+    <string name="phoneNumberSister">Сестра</string>
+    <string name="phoneNumberLittleSister">Младшая сестра</string>
+    <string name="phoneNumberLittleBrother">Младший брат</string>
+    <string name="startTest">начать тест</string>
+    <string name="email">email</string>
+    <string name="birthDay">День рождения</string>
+    <string name="hobby">Хобби</string>
+    <string name="socialLinks">Социальные ссылки</string>
+</resources>

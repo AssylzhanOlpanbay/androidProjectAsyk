@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.MotherFragment">
+
+    <RelativeLayout
+        android:id="@+id/main_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"/>
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/account"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"
+        android:layout_marginTop="15dp"
+        tools:ignore="DuplicateIds,MissingClass"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/user_photo"
+        android:layout_centerHorizontal="true"
+        android:text="Alise Tailor"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/user_name">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/users_photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/account"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#FF000000"
+            tools:ignore="DuplicateIds,MissingClass"/>
+
+        <TextView
+            android:id="@+id/users_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneNumberMother"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/users_photo"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/users_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+77073279073"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/users_photo"
+            android:layout_below="@+id/users_name"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/user_name"
+        android:layout_toRightOf="@id/contact_name"
+        android:layout_marginLeft="90dp">
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/call_icon"
+            app:backgroundTint="@null"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/sms_icon"
+            app:backgroundTint="@null"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@+id/main_background"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/email_icon"
+        android:drawablePadding="10dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alise1977@gmail.com"
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_email"
+        android:layout_marginLeft="30dp"/>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_below="@+id/tv_userEmail"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="1dp"
+        android:background="#C3C3C3"/>
+
+    <TextView
+        android:id="@+id/tv_birthDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthDay"
+        android:layout_below="@+id/line1"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/calendar_icon"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_userBirthDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07.01.1977"
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_birthDay"
+        android:layout_marginLeft="30dp"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_below="@+id/tv_userBirthDay"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="1dp"
+        android:background="#C3C3C3"/>
+
+    <TextView
+        android:id="@+id/tv_hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hobby"
+        android:layout_below="@+id/line2"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/hobby_icon"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_userHobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch a serials, play table tennis"
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_hobby"
+        android:layout_marginLeft="30dp"/>
+
+    <View
+        android:id="@+id/line3"
+        android:layout_below="@+id/tv_userHobby"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="1dp"
+        android:background="#C3C3C3"/>
+
+    <TextView
+        android:id="@+id/tv_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/socialLinks"
+        android:layout_below="@+id/line3"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/link_icon"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_userLinkInstagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram: alisetaiilor1977"
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_link"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_userLinkTelegram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telegram: alise.tailor77"
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_userLinkInstagram"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_userLinkTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter: Alise Tailor"
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_userLinkTelegram"
+        android:layout_marginLeft="30dp"/>
+
+    <View
+        android:id="@+id/line4"
+        android:layout_below="@+id/tv_userLinkTwitter"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="1dp"
+        android:background="#C3C3C3"/>
+
+    <Button
+        android:id="@+id/btn_mother_startTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startTest"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/pink"
+        android:layout_below="@+id/line4"/>
+
+</RelativeLayout>

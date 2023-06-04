@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Final Android Project</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_cabinet">My cabinet</string>
+    <string name="menu_ata">Grandfather</string>
+    <string name="menu_apa">Grandmother</string>
+    <string name="menu_ake">Father</string>
+    <string name="menu_ana">Mother</string>
+    <string name="menu_aga">Brother</string>
+    <string name="menu_apke">Sister</string>
+    <string name="menu_karyndas">Little sister</string>
+    <string name="menu_ini">Little brother</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register">New user? Register</string>
+    <string name="write_your_email">Write your email</string>
+    <string name="write_password">Write password</string>
+    <string name="welcome">Welcome, </string>
+    <string name="email_or_password_is_wrong">Email or password is wrong</string>
+    <string name="title_activity_fragments">Fragments</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="phoneNumber">My number</string>
+    <string name="phoneNumberGrandFather">Grand father</string>
+    <string name="phoneNumberGrandMother">Grand mother</string>
+    <string name="phoneNumberFather">Father</string>
+    <string name="phoneNumberMother">Mother</string>
+    <string name="phoneNumberBrother">Brother</string>
+    <string name="phoneNumberSister">Sister</string>
+    <string name="phoneNumberLittleSister">Little sister</string>
+    <string name="phoneNumberLittleBrother">Little brother</string>
+    <string name="startTest">start test</string>
+    <string name="email">email</string>
+    <string name="birthDay">Birth day</string>
+    <string name="hobby">Hobby</string>
+    <string name="socialLinks">Social links</string>
+
+</resources>

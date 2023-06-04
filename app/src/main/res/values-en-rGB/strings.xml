@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final Android Project</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register">New user? Register</string>
+    <string name="write_your_email">Write your email</string>
+    <string name="write_password">Write password</string>
+    <string name="welcome">Welcome, </string>
+    <string name="email_or_password_is_wrong">Email or password is wrong</string>
+
+    <string name="menu_cabinet">My cabinet</string>
+    <string name="menu_ata">Grandfather</string>
+    <string name="menu_apa">Grandmother</string>
+    <string name="menu_ake">Father</string>
+    <string name="menu_ana">Mother</string>
+    <string name="menu_aga">Brother</string>
+    <string name="menu_apke">Sister</string>
+    <string name="menu_karyndas">Little sister</string>
+    <string name="menu_ini">Little brother</string>
+
+    <string name="phoneNumber">My number</string>
+    <string name="phoneNumberGrandFather">Grand father</string>
+    <string name="phoneNumberGrandMother">Grand mother</string>
+    <string name="phoneNumberFather">Father</string>
+    <string name="phoneNumberMother">Mother</string>
+    <string name="phoneNumberBrother">Brother</string>
+    <string name="phoneNumberSister">Sister</string>
+    <string name="phoneNumberLittleSister">Little sister</string>
+    <string name="phoneNumberLittleBrother">Little brother</string>
+    <string name="startTest">start test</string>
+    <string name="email">email</string>
+    <string name="birthDay">Birth day</string>
+    <string name="hobby">Hobby</string>
+    <string name="socialLinks">Social links</string>
+</resources>

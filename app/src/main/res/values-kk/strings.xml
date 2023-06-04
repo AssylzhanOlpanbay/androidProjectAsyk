@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Соңғы Android Проект</string>
+    <string name="enter_email">Email енгізіңіз</string>
+    <string name="enter_password">Құпия сөз енгізіңіз</string>
+    <string name="login">кіру</string>
+    <string name="new_user_register">Жаңа пайдаланушы? Тіркелу</string>
+    <string name="write_your_email">Email енгізіңіз</string>
+    <string name="write_password">Құпия сөз енгізіңіз</string>
+    <string name="welcome">Қош келдіңіз, </string>
+    <string name="email_or_password_is_wrong">Email немесе құпия сөз қате!</string>
+
+    <string name="menu_cabinet">Жеке кабинетім</string>
+    <string name="menu_ata">Ата</string>
+    <string name="menu_apa">Апа</string>
+    <string name="menu_ake">Әке</string>
+    <string name="menu_ana">Ана</string>
+    <string name="menu_aga">Аға</string>
+    <string name="menu_apke">Әпке</string>
+    <string name="menu_karyndas">Қарындас/сіңілі</string>
+    <string name="menu_ini">Іні</string>
+
+    <string name="phoneNumber">Менің нөмерім</string>
+    <string name="phoneNumberGrandFather">Ата</string>
+    <string name="phoneNumberGrandMother">Апа</string>
+    <string name="phoneNumberFather">Әке</string>
+    <string name="phoneNumberMother">Ана</string>
+    <string name="phoneNumberBrother">Аға</string>
+    <string name="phoneNumberSister">Әпке</string>
+    <string name="phoneNumberLittleSister">Қарындас</string>
+    <string name="phoneNumberLittleBrother">Іні</string>
+    <string name="startTest">тестті бастау</string>
+    <string name="email">email</string>
+    <string name="birthDay">Туған күн</string>
+    <string name="hobby">Хобби</string>
+    <string name="socialLinks">Социалдық сілтемелер</string>
+</resources>

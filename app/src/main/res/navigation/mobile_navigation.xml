@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cabinet">
+
+    <fragment
+        android:id="@+id/nav_cabinet"
+        android:name="com.kz.finalandroidproject.ui.home.HomeFragment"
+        android:label="@string/menu_cabinet"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ata"
+        android:name="com.kz.finalandroidproject.ui.home.GrandFatherFragment"
+        android:label="@string/menu_ata"
+        tools:layout="@layout/fragment_grand_father" />
+
+    <fragment
+        android:id="@+id/nav_apa"
+        android:name="com.kz.finalandroidproject.ui.home.GrandMotherFragment"
+        android:label="@string/menu_apa"
+        tools:layout="@layout/fragment_grand_mother" />
+
+    <fragment
+        android:id="@+id/nav_ake"
+        android:name="com.kz.finalandroidproject.ui.home.FatherFragment"
+        android:label="@string/menu_ake"
+        tools:layout="@layout/fragment_father" />
+
+    <fragment
+        android:id="@+id/nav_ana"
+        android:name="com.kz.finalandroidproject.ui.home.MotherFragment"
+        android:label="@string/menu_ana"
+        tools:layout="@layout/fragment_mother" />
+
+    <fragment
+        android:id="@+id/nav_aga"
+        android:name="com.kz.finalandroidproject.ui.home.BrotherFragment"
+        android:label="@string/menu_aga"
+        tools:layout="@layout/fragment_brother" />
+
+    <fragment
+        android:id="@+id/nav_apke"
+        android:name="com.kz.finalandroidproject.ui.home.SisterFragment"
+        android:label="@string/menu_apke"
+        tools:layout="@layout/fragment_sister" />
+
+    <fragment
+        android:id="@+id/nav_karyndas"
+        android:name="com.kz.finalandroidproject.ui.home.LittleSisterFragment"
+        android:label="@string/menu_karyndas"
+        tools:layout="@layout/fragment_little_sister" />
+
+    <fragment
+        android:id="@+id/nav_ini"
+        android:name="com.kz.finalandroidproject.ui.home.LittleBrotherFragment"
+        android:label="@string/menu_ini"
+        tools:layout="@layout/fragment_little_brother" />
+</navigation>
